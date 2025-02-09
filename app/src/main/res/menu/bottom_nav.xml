@@ -10,9 +10,22 @@
         tools:ignore="MenuTitle" />
 
     <item
+        android:contentDescription="Journey"
+        android:id="@+id/nav_Journey"
+        android:icon="@drawable/destination"
+        tools:ignore="MenuTitle" />
+
+
+    <item
         android:contentDescription="GabAI"
         android:id="@+id/nav_GabAI"
         android:icon="@drawable/hello"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:contentDescription="Library"
+        android:id="@+id/nav_Library"
+        android:icon="@drawable/book"
         tools:ignore="MenuTitle" />
 
     <item

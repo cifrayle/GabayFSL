@@ -1,4 +1,4 @@
-package com.example.gabay.fragments;
+package com.example.gabay.activity;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,7 +19,7 @@ public class GabAIPage extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        view = inflater.inflate(R.layout.fragment_gabai_page, container, false);
+        view = inflater.inflate(R.layout.activity_gabai_page, container, false);
 
         return view;
     }
